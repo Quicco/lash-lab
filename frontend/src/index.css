@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+    --color-lashwhite: #f8f0ff;
+    --color-lashpink: #f6ccd2;
+    --color-lashdark: #7f39b3;
+}
