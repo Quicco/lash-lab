@@ -5,15 +5,15 @@ export interface NavLink {
   }
 
   const navLinks: NavLink[] = [
-    { desc: 'About ' },
+    { desc: 'Sobre Mim ' },
     // { desc: 'About' },
-    { desc: 'Services' },
+    { desc: 'Serviços' },
   ];
 
 export default function Header() {
-
+ 
   return (
-    <header className="flex flex-col items-center md:flex-row md:justify-between px-4 py-5">
+    <header className="flex flex-col items-center px-1 py-1 md:flex-row md:justify-between md:text-sm">
       <img src="/img/llbk-logo.jpg" alt="logo of Lash Lab by Kate" />
 
       <nav>

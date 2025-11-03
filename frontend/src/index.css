@@ -1,7 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 @import "tailwindcss";
+/* 
+
+@font-face {
+  font-family: "Arsenica";
+  src: url("/src/assets/fonts/ArsenicaTrial-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+} */
+
 
 @theme {
-    --color-lashwhite: #f8f0ff;
-    --color-lashpink: #f6ccd2;
-    --color-lashdark: #7f39b3;
+    --color-lashwhite: #f7f0ff;
+    --color-lashpink: #dfbdf7;
+    --color-lashdark: #813ab3;
+    --color-lashgold: #c2b59b;
+
+     --font-poppins: Poppins, sans-serif;
+     /* --font-arsenica: Arsenica, serif;  !!Not a free font!! */
 }
+
+/* 
+Fonts:
+Arsenica
+Poppins
+*/
