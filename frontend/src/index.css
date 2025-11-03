@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import "tailwindcss";
 /* 
 
@@ -16,10 +17,27 @@
     --color-lashpink: #dfbdf7;
     --color-lashdark: #813ab3;
     --color-lashgold: #c2b59b;
+    --color-about: #f3f0fd;
+    --color-price: #3a3b3c;
+    --color-offwhite: #f2f0ef;
 
      --font-poppins: Poppins, sans-serif;
+     --font-spectral: Spectral, serif;
      /* --font-arsenica: Arsenica, serif;  !!Not a free font!! */
+
+     --hero-bg: url("/img/hero-bg-2.jpg");
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-title {
+  color: var(--color-lashdark);
+  font-family: var(--font-spectral);
+}
+
+
 
 /* 
 Fonts:

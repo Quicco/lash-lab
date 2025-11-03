@@ -12,10 +12,10 @@ export default function Links({ links }: Props) {
           <li
             key={i}
             className={
-              'text-lashdark uppercase hover:underline hover:cursor-pointer'
+              'text-lashdark uppercase hover:underline hover:cursor-pointer mb-4'
             }
           >
-            {link.desc}
+            <a href={`#${link.id}`}>{link.desc}</a>
           </li>
         ))}
       </ul>
