@@ -26,6 +26,8 @@
      /* --font-arsenica: Arsenica, serif;  !!Not a free font!! */
 
      --hero-bg: url("/img/hero-bg-2.jpg");
+
+     --transition-offerings: scale cursor;
 }
 
 html {
@@ -33,9 +35,22 @@ html {
 }
 
 .section-title {
-  color: var(--color-lashdark);
+  color: var(--color-lashwhite);
   font-family: var(--font-spectral);
 }
+
+.slick-prev:before,
+.slick-next:before {
+  color: black; /* change to your color */
+  font-size: 25px; /* optional */
+  opacity: 1; /* slick gives 0.75 by default */
+}
+
+.slick-prev:before:hover,
+.slick-next:before:hover {
+  color: #60a5fa; /* Tailwind sky-400 if you want hover effect */
+}
+
 
 
 

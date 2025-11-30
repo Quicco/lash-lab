@@ -8,7 +8,7 @@ export default function LashLab() {
     <div className="flex flex-col min-h-screen bg-lashwhite font-poppins">
         <Header />
         <HeroSection />
-        <About />
+        <About />  {/*TODO: Find a smaller picture. Maybe design the page by hand */}
         <Services />
     </div>
   )

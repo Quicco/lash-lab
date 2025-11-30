@@ -8,19 +8,18 @@ interface Props {
 function Offering({title, desc, thumbnail, price }: Props) {
   return (
     <div
-      key={desc}
-      className={`flex flex-col w-full items-center text-center gap-8 mb-8 rounded-lg md:h-[400px]`}
+      className={`group flex flex-col m-auto md:w-4/6 h-[350px] sm:h-[400px] md:h-[500px] overflow-hidden hover:cursor-pointer bg-lashwhite shadow-md`}
     >
       <img
         src={thumbnail}
         alt={`Imagem do serviço ${desc}`}
-        className="w-full md:w-8/10 h-72 md:h-full object-cover object-center rounded-t-lg shadow-md"
+        className="w-full h-full md:h-full object-cover shadow-lg bg-lashpink transition duration-300 group-hover:opacity-75"
       />
 
-      <div className="service-desc text-left">
-        <h3 className="text-lg md:text-xl">{title}</h3>
-        <p className="text-price">{desc}</p>
-        <p className="text-price">€{price}</p>
+      <div className="service-desc text-left px-10 py-6 ">
+        <h3 className="text-xl md:text-xl">{title}</h3>
+        <p className="text-price text-sm">{desc}</p>
+        <p>€{price}</p>
       </div>
     </div>
   );
